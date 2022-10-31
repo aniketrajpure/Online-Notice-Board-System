@@ -1,0 +1,12 @@
+ <script src="--/jQuery\jquery-3.6.1.min.map" charset="utf-8"></script>
+
+<script type="text/javascript">
+ 
+ $(document).ready(function(){
+    $("#edit_profile_button").click(function(){
+    $("#main_content").load('Admin\admin_edit_profile');
+    
+});
+     $("#create_notice_button").click(function(){
+     $("#main_content").load('Admin\admin_create notice.php');
+    });
